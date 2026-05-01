@@ -43,7 +43,7 @@ mosquitto_sub -h localhost -p 1883 -u admin -P admin -t "woox/sensores/#" -v
 
 Terminal 2 - Publisher:
 ```bash
-mosquitto_pub -h localhost -p 1883 -u admin -P admin -t "woox/sensores/temperatura" -m '{"device":"ESP32_Publisher","temp":27.4,"unidad":"C","msg":1}'
+mosquitto_pub -h localhost -p 1883 -u admin -P admin -t "iot/raspberry/prueba" -m '{"device":"ESP32_Publisher","temp":27.4,"unidad":"C","msg":1}'
 ```
 
 ## ESP32 - Configuración
@@ -58,4 +58,4 @@ mosquitto_pub -h localhost -p 1883 -u admin -P admin -t "woox/sensores/temperatu
 - Usuario: `admin`
 - Contraseña: `admin`
 - Puerto: `1883`
-- Tópico: `woox/sensores/temperatura`
+- Tópico: `iot/raspberry/prueba`
