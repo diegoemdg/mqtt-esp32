@@ -38,7 +38,7 @@ sudo systemctl restart mosquitto
 
 Terminal 1 - Subscriber:
 ```bash
-mosquitto_sub -h localhost -p 1883 -u admin -P admin -t "woox/sensores/#" -v
+mosquitto_sub -h localhost -p 1883 -u admin -P admin -t "iot/#" -v
 ```
 
 Terminal 2 - Publisher:
