@@ -1,0 +1,10 @@
+*.elf
+*.bin
+*.hex
+build/
+.pio/
+.vscode/
+*.DS_Store
+secrets.h
+node_modules/
+*.log
